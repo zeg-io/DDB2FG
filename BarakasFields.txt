@@ -1,0 +1,836 @@
+Page 1:
+CharacterName-->Barakas
+CLASS  LEVEL-->Warlock 3
+PLAYER NAME-->BoomerET
+RACE-->Tiefling
+BACKGROUND-->Charlatan
+EXPERIENCE POINTS-->900
+STR-->+1
+STRmod-->13
+DEX-->+1
+DEXmod -->12
+CON-->+2
+CONmod-->14
+INT-->-1
+INTmod-->9
+WIS-->+0
+WISmod-->10
+CHA-->+3
+CHamod-->17
+StrProf-->
+ST Strength-->+1
+DexProf-->
+ST Dexterity-->+1
+ConProf-->
+ST Constitution-->+2
+IntProf-->
+ST Intelligence-->-1
+WisProf-->•
+ST Wisdom-->+2
+ChaProf-->•
+ST Charisma-->+5
+SaveModifiers-->
+AcrobaticsProf-->
+Acrobatics-->+1
+AcrobaticsMod-->DEX
+AnimalHandlingProf-->
+Animal-->+0
+AnimalMod-->WIS
+ArcanaProf-->
+Arcana-->-1
+ArcanaMod-->INT
+AthleticsProf-->P
+Athletics-->+1
+AthleticsMod-->STR
+DeceptionProf-->
+Deception-->+5
+DeceptionMod-->CHA
+HistoryProf-->
+History-->-1
+HistoryMod-->INT
+InsightProf-->
+Insight-->+0
+InsightMod-->WIS
+IntimidationProf-->P
+Intimidation-->+3
+IntimidationMod-->CHA
+InvestigationProf-->
+Investigation-->+1
+InvestigationMod-->INT
+MedicineProf-->
+Medicine-->+0
+MedicineMod-->WIS
+NatureProf-->
+Nature-->-1
+NatureMod-->INT
+PerceptionProf-->
+Perception-->+0
+PerceptionMod-->WIS
+PerformanceProf-->
+Performance-->+3
+PerformanceMod-->CHA
+PersuasionProf-->
+Persuasion-->+3
+PersuasionMod-->CHA
+ReligionProf-->
+Religion-->+1
+SleightOfHandProf-->P
+SleightofHand-->+3
+StealthProf-->P
+Stealth -->+1
+SurvivalProf-->
+Survival-->+0
+CustomProf1-->
+Custom Skill Bonus 1-->
+CustomSkill1-->
+CustomProf2-->
+Custom Skill Bonus 2-->
+CustomSkill2-->
+CustomProf3-->
+Custom Skill Bonus 3-->
+CustomSkill3-->
+Passive1-->10
+Passive2-->10
+Passive3-->11
+AdditionalSenses-->Darkvision 60 ft.
+Init-->+1
+AC-->11
+Defenses-->Resistances - Fire
+ProfBonus-->+2
+AbilitySaveDC-->
+AbilitySaveScore1-->
+AbilitySaveScore2-->
+AbilitySaveDC2-->
+Speed-->30 ft. (Walking)
+MaxHP-->24
+CurrentHP-->
+TempHP-->--
+Total-->3d8
+HD-->
+Check Box 12-->null
+Check Box 13-->null
+Check Box 14-->null
+Check Box 15-->null
+Check Box 16-->null
+Check Box 17-->null
+ProficienciesLang-->=== ARMOR === 
+Light Armor 
+
+=== WEAPONS === 
+Simple Weapons 
+
+=== TOOLS === 
+Disguise Kit, Forgery Kit 
+
+=== LANGUAGES === 
+Common, Infernal
+ReligionMod-->INT
+SleightofHandMod-->DEX
+StealthMod-->DEX
+SurvivalMod-->WIS
+Actions1-->=== ACTIONS === 
+Standard Actions 
+Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, Use an Object, Opportunity Attack 
+
+=== SPECIAL === 
+Dark One’s Blessing 
+When you reduce a hostile creature to 0 HP, you gain 6 temp HP.
+Actions2-->
+Wpn Name-->
+Wpn1 AtkBonus-->
+Wpn1 Damage-->
+Wpn Notes 1-->
+Wpn Name 2-->
+Wpn2 AtkBonus -->
+Wpn2 Damage -->
+Wpn Notes 2-->
+Wpn Name 3-->
+Wpn3 AtkBonus  -->
+Wpn3 Damage -->
+Wpn Notes 3-->
+Wpn Name 4-->
+Wpn4 AtkBonus-->
+Wpn4 Damage-->
+Wpn Notes 4-->
+Wpn Name 5-->
+Wpn5 AtkBonus-->
+Wpn5 Damage-->
+Wpn Notes 5-->
+Wpn Name 6-->
+Wpn6 AtkBonus-->
+Wpn6 Damage-->
+Wpn Notes 6-->
+----------------------------------------------
+Page 2:
+CharacterName2-->Barakas
+CLASS  LEVEL2-->Warlock 3
+PLAYER NAME2-->BoomerET
+RACE2-->Tiefling
+BACKGROUND2-->Charlatan
+EXPERIENCE POINTS2-->900
+FeaturesTraits1-->=== WARLOCK FEATURES === 
+
+* Otherworldly Patron • PHB 107 
+You have struck a bargain with an otherworldly being. 
+
+   | The Fiend* Pact Magic • PHB 107 
+You can cast known warlock spells using CHA as your spellcasting modifier (Spell DC 13, Spell Attack +5). You can use an arcane focus as a spellcasting focus. 
+
+* Expanded Spell List • PHB 109 
+Additional spells are added to the warlock spell list for you. 
+
+* Dark One’s Blessing • PHB 109 
+When you reduce a hostile creature to 0 HP, you gain 6 temp HP. 
+
+   | 1 Special 
+
+* Eldritch Invocations • PHB 107 
+You learn fragments of forbidden knowledge that imbue you with an abiding magical ability. 
+
+   | Agonizing Blast • PHB 110 
+When you cast eldritch blast, add +3 to the damage it deals on a hit. 
+
+   | Eyes of the Rune Keeper • PHB 111 
+You can read all writing. 
+
+* Pact Boon • PHB 107 
+Your otherworldly patron bestows a gift upon you for your loyal service. 
+
+   | Pact of the Tome • PHB 
+Your patron gives you a grimoire called a Book of Shadows that grants you additional cantrips that don't count against your number of cantrips known. If you lose the book, you can perform a 1-hour ceremony to receive a replacement during a short or long rest. 
+
+
+
+=== TIEFLING RACIAL TRAITS === 
+Darkvision • PHB 43 
+You can see in darkness (shades of gray) up to 60 ft.
+FeaturesTraits2-->Hellish Resistance • PHB 43 
+You have resistance to fire damage. 
+
+Infernal Legacy • PHB 43 
+You know the thaumaturgy cantrip. [3rd] You can cast hellish rebuke (2nd) once per long rest. [5th] You can cast darkness once per long rest. CHA is your spellcasting ability.
+FeaturesTraits3-->
+CP-->0
+SP-->0
+EP-->0
+GP-->0
+PP-->0
+Weight Carried-->0 lb.
+Encumbered-->65 lb.
+PushDragLift-->390 lb.
+Eq Name0-->
+Eq Qty0-->
+Eq Weight0-->
+Eq Name1-->
+Eq Qty1-->
+Eq Weight1-->
+Eq Name2-->
+Eq Qty2-->
+Eq Weight2-->
+Eq Name3-->
+Eq Qty3-->
+Eq Weight3-->
+Eq Name4-->
+Eq Qty4-->
+Eq Weight4-->
+Eq Name5-->
+Eq Qty5-->
+Eq Weight5-->
+Eq Name6-->
+Eq Qty6-->
+Eq Weight6-->
+Eq Name7-->
+Eq Qty7-->
+Eq Weight7-->
+Eq Name8-->
+Eq Qty8-->
+Eq Weight8-->
+Eq Name9-->
+Eq Qty9-->
+Eq Weight9-->
+Eq Name10-->
+Eq Qty10-->
+Eq Weight10-->
+Eq Name11-->
+Eq Qty11-->
+Eq Weight11-->
+Eq Name12-->
+Eq Qty12-->
+Eq Weight12-->
+Eq Name13-->
+Eq Qty13-->
+Eq Weight13-->
+Eq Name14-->
+Eq Qty14-->
+Eq Weight14-->
+Eq Name15-->
+Eq Qty15-->
+Eq Weight15-->
+Eq Name16-->
+Eq Qty16-->
+Eq Weight16-->
+Eq Name17-->
+Eq Qty17-->
+Eq Weight17-->
+Eq Name18-->
+Eq Qty18-->
+Eq Weight18-->
+Eq Name19-->
+Eq Qty19-->
+Eq Weight19-->
+Eq Name20-->
+Eq Qty20-->
+Eq Weight20-->
+Eq Name21-->
+Eq Qty21-->
+Eq Weight21-->
+Eq Name22-->
+Eq Qty22-->
+Eq Weight22-->
+Eq Name23-->
+Eq Qty23-->
+Eq Weight23-->
+Eq Name24-->
+Eq Qty24-->
+Eq Weight24-->
+Eq Name25-->
+Eq Qty25-->
+Eq Weight25-->
+Attuned Name1-->
+Attuned Qty1-->
+Attuned Weight1-->
+Attuned Name2-->
+Attuned Qty2-->
+Attuned Weight2-->
+Attuned Name3-->
+Attuned Qty3-->
+AttunedWeight3-->
+--------------------------------------------
+Page 3:
+CharacterName4-->Barakas
+GENDER-->Male
+AGE-->24
+SIZE-->Medium
+HEIGHT-->6' 0"
+WEIGHT-->185
+ALIGNMENT-->Chaotic Neutral
+FAITH-->
+SKIN-->Dark Red
+EYES-->Silver
+HAIR-->Purple
+Appearance-->
+AlliesOrganizations-->
+PersonalityTraits -->Sarcasm and insults are my weapons of choice. 
+I lie about almost everything, even when there’s no good reason to.
+Ideals-->Independence. I am a free spirit—no one tells me what to do. (Chaotic)
+Bonds-->A powerful person killed someone I love. Some day soon, I’ll have my revenge.
+Flaws-->I’m too greedy for my own good. I can’t resist taking a risk if there’s money involved.
+Backstory-->
+AdditionalNotes1-->
+AdditionalNotes2-->
+-------------------------------------------------------
+Page 4:
+spellCastingAbility0-->CHA
+spellSaveDC0-->13
+spellAtkBonus0-->+5
+spellCastingClass0-->Warlock
+spellPreparedHeader0-->
+spellHeader0-->=== CANTRIPS ===
+spellSlotHeader0-->(At Will)
+spellSaveHitHeader0-->
+spellCastingTimeHeader0-->
+spellRangeHeader0-->
+spellComponentsHeader0-->
+spellDurationHeader0-->
+spellPageHeader0-->
+spellNotesHeader0-->
+spellPrepared0-->
+spellName0-->Thaumaturgy
+spellSource0-->
+spellSaveHit0-->--
+spellCastingTime0-->1A
+spellRange0-->30 ft.
+spellComponents0-->V
+spellDuration0-->1 Minute
+spellPage0-->PHB 282
+spellNotes0-->
+spellPreparedBlankHeader1-->
+spellNameBlankHeader1-->
+spellSourceBlankHeader1-->
+spellSaveHitBlankHeader1-->
+spellCastingTimeBlankHeader1-->
+spellRangeBlankHeader1-->
+spellComponentsBlankHeader1-->
+spellDurationBlankHeader1-->
+spellPageBlankHeader1-->
+spellNotesBlankHeader1-->
+spellPreparedHeader1-->
+spellHeader1-->=== 1st LEVEL ===
+spellSlotHeader1-->
+spellSaveHitHeader1-->
+spellCastingTimeHeader1-->
+spellRangeHeader1-->
+spellComponentsHeader1-->
+spellDurationHeader1-->
+spellPageHeader1-->
+spellNotesHeader1-->
+spellPrepared1-->
+spellName1-->Hellish Rebuke
+spellSource1-->
+spellSaveHit1-->DEX 13
+spellCastingTime1-->1R
+spellRange1-->60 ft.
+spellComponents1-->V,S
+spellDuration1-->
+spellPage1-->PHB 250
+spellNotes1-->
+Prepared5-->
+SpellName5-->
+SpellSource5-->
+SaveHit5-->
+CastingTime5-->
+Range5-->
+Components5-->
+Duration5-->
+Source5-->
+Notes5-->
+Prepared6-->
+SpellName6-->
+SpellSource6-->
+SaveHit6-->
+CastingTime6-->
+Range6-->
+Components6-->
+Duration6-->
+Source6-->
+Notes6-->
+Prepared7-->
+SpellName7-->
+SpellSource7-->
+SaveHit7-->
+CastingTime7-->
+Range7-->
+Components7-->
+Duration7-->
+Source7-->
+Notes7-->
+Prepared8-->
+SpellName8-->
+SpellSource8-->
+SaveHit8-->
+CastingTime8-->
+Range8-->
+Components8-->
+Duration8-->
+Source8-->
+Notes8-->
+Prepared9-->
+SpellName9-->
+SpellSource9-->
+SaveHit9-->
+CastingTime9-->
+Range9-->
+Components9-->
+Duration9-->
+Source9-->
+Notes9-->
+Prepared10-->
+SpellName10-->
+SpellSource10-->
+SaveHit10-->
+CastingTime10-->
+Range10-->
+Components10-->
+Duration10-->
+Source10-->
+Notes10-->
+Prepared11-->
+SpellName11-->
+SpellSource11-->
+SaveHit11-->
+CastingTime11-->
+Range11-->
+Components11-->
+Duration11-->
+Source11-->
+Notes11-->
+Prepared12-->
+SpellName12-->
+SpellSource12-->
+SaveHit12-->
+CastingTime12-->
+Range12-->
+Components12-->
+Duration12-->
+Source12-->
+Notes12-->
+Prepared13-->
+SpellName13-->
+SpellSource13-->
+SaveHit13-->
+CastingTime13-->
+Range13-->
+Components13-->
+Duration13-->
+Source13-->
+Notes13-->
+Prepared14-->
+SpellName14-->
+SpellSource14-->
+SaveHit14-->
+CastingTime14-->
+Range14-->
+Components14-->
+Duration14-->
+Source14-->
+Notes14-->
+Prepared15-->
+SpellName15-->
+SpellSource15-->
+SaveHit15-->
+CastingTime15-->
+Range15-->
+Components15-->
+Duration15-->
+Source15-->
+Notes15-->
+Prepared16-->
+SpellName16-->
+SpellSource16-->
+SaveHit16-->
+CastingTime16-->
+Range16-->
+Components16-->
+Duration16-->
+Source16-->
+Notes16-->
+Prepared17-->
+SpellName17-->
+SpellSource17-->
+SaveHit17-->
+CastingTime17-->
+Range17-->
+Components17-->
+Duration17-->
+Source17-->
+Notes17-->
+Prepared18-->
+SpellName18-->
+SpellSource18-->
+SaveHit18-->
+CastingTime18-->
+Range18-->
+Components18-->
+Duration18-->
+Source18-->
+Notes18-->
+Prepared19-->
+SpellName19-->
+SpellSource19-->
+SaveHit19-->
+CastingTime19-->
+Range19-->
+Components19-->
+Duration19-->
+Source19-->
+Notes19-->
+Prepared20-->
+SpellName20-->
+SpellSource20-->
+SaveHit20-->
+CastingTime20-->
+Range20-->
+Components20-->
+Duration20-->
+Source20-->
+Notes20-->
+Prepared21-->
+SpellName21-->
+SpellSource21-->
+SaveHit21-->
+CastingTime21-->
+Range21-->
+Components21-->
+Duration21-->
+Source21-->
+Notes21-->
+Prepared22-->
+SpellName22-->
+SpellSource22-->
+SaveHit22-->
+CastingTime22-->
+Range22-->
+Components22-->
+Duration22-->
+Source22-->
+Notes22-->
+Prepared23-->
+SpellName23-->
+SpellSource23-->
+SaveHit23-->
+CastingTime23-->
+Range23-->
+Components23-->
+Duration23-->
+Source23-->
+Notes23-->
+Prepared24-->
+SpellName24-->
+SpellSource24-->
+SaveHit24-->
+CastingTime24-->
+Range24-->
+Components24-->
+Duration24-->
+Source24-->
+Notes24-->
+Prepared25-->
+SpellName25-->
+SpellSource25-->
+SaveHit25-->
+CastingTime25-->
+Range25-->
+Components25-->
+Duration25-->
+Source25-->
+Notes25-->
+Prepared26-->
+SpellName26-->
+SpellSource26-->
+SaveHit26-->
+CastingTime26-->
+Range26-->
+Components26-->
+Duration26-->
+Source26-->
+Notes26-->
+Prepared27-->
+SpellName27-->
+SpellSource27-->
+SaveHit27-->
+CastingTime27-->
+Range27-->
+Components27-->
+Duration27-->
+Source27-->
+Notes27-->
+Prepared28-->
+SpellName28-->
+SpellSource28-->
+SaveHit28-->
+CastingTime28-->
+Range28-->
+Components28-->
+Duration28-->
+Source28-->
+Notes28-->
+Prepared29-->
+SpellName29-->
+SpellSource29-->
+SaveHit29-->
+CastingTime29-->
+Range29-->
+Components29-->
+Duration29-->
+Source29-->
+Notes29-->
+Prepared30-->
+SpellName30-->
+SpellSource30-->
+SaveHit30-->
+CastingTime30-->
+Range30-->
+Components30-->
+Duration30-->
+Source30-->
+Notes30-->
+Prepared31-->
+SpellName31-->
+SpellSource31-->
+SaveHit31-->
+CastingTime31-->
+Range31-->
+Components31-->
+Duration31-->
+Source31-->
+Notes31-->
+Prepared32-->
+SpellName32-->
+SpellSource32-->
+SaveHit32-->
+CastingTime32-->
+Range32-->
+Components32-->
+Duration32-->
+Source32-->
+Notes32-->
+Prepared33-->
+SpellName33-->
+SpellSource33-->
+SaveHit33-->
+CastingTime33-->
+Range33-->
+Components33-->
+Duration33-->
+Source33-->
+Notes33-->
+Prepared34-->
+SpellName34-->
+SpellSource34-->
+SaveHit34-->
+CastingTime34-->
+Range34-->
+Components34-->
+Duration34-->
+Source34-->
+Notes34-->
+Prepared35-->
+SpellName35-->
+SpellSource35-->
+SaveHit35-->
+CastingTime35-->
+Range35-->
+Components35-->
+Duration35-->
+Source35-->
+Notes35-->
+Prepared36-->
+SpellName36-->
+SpellSource36-->
+SaveHit36-->
+CastingTime36-->
+Range36-->
+Components36-->
+Duration36-->
+Source36-->
+Notes36-->
+Prepared37-->
+SpellName37-->
+SpellSource37-->
+SaveHit37-->
+CastingTime37-->
+Range37-->
+Components37-->
+Duration37-->
+Source37-->
+Notes37-->
+Prepared38-->
+SpellName38-->
+SpellSource38-->
+SaveHit38-->
+CastingTime38-->
+Range38-->
+Components38-->
+Duration38-->
+Source38-->
+Notes38-->
+Prepared39-->
+SpellName39-->
+SpellSource39-->
+SaveHit39-->
+CastingTime39-->
+Range39-->
+Components39-->
+Duration39-->
+Source39-->
+Notes39-->
+Prepared40-->
+SpellName40-->
+SpellSource40-->
+SaveHit40-->
+CastingTime40-->
+Range40-->
+Components40-->
+Duration40-->
+Source40-->
+Notes40-->
+Prepared41-->
+SpellName41-->
+SpellSource41-->
+SaveHit41-->
+CastingTime41-->
+Range41-->
+Components41-->
+Duration41-->
+Source41-->
+Notes41-->
+Prepared42-->
+SpellName42-->
+SpellSource42-->
+SaveHit42-->
+CastingTime42-->
+Range42-->
+Components42-->
+Duration42-->
+Source42-->
+Notes42-->
+Prepared43-->
+SpellName43-->
+SpellSource43-->
+SaveHit43-->
+CastingTime43-->
+Range43-->
+Components43-->
+Duration43-->
+Source43-->
+Notes43-->
+Prepared44-->
+SpellName44-->
+SpellSource44-->
+SaveHit44-->
+CastingTime44-->
+Range44-->
+Components44-->
+Duration44-->
+Source44-->
+Notes44-->
+Prepared45-->
+SpellName45-->
+SpellSource45-->
+SaveHit45-->
+CastingTime45-->
+Range45-->
+Components45-->
+Duration45-->
+Source45-->
+Notes45-->
+Prepared46-->
+SpellName46-->
+SpellSource46-->
+SaveHit46-->
+CastingTime46-->
+Range46-->
+Components46-->
+Duration46-->
+Source46-->
+Notes46-->
+Prepared47-->
+SpellName47-->
+SpellSource47-->
+SaveHit47-->
+CastingTime47-->
+Range47-->
+Components47-->
+Duration47-->
+Source47-->
+Notes47-->
+Prepared48-->
+SpellName48-->
+SpellSource48-->
+SaveHit48-->
+CastingTime48-->
+Range48-->
+Components48-->
+Duration48-->
+Source48-->
+Notes48-->
+Prepared49-->
+SpellName49-->
+SpellSource49-->
+SaveHit49-->
+CastingTime49-->
+Range49-->
+Components49-->
+Duration49-->
+Source49-->
+Notes49-->
