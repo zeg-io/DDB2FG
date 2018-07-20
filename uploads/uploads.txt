@@ -1,0 +1,3 @@
+When a PDF is uploaded, it's saved in this directory.
+
+Todo: Maybe save the .xml file that was created?
