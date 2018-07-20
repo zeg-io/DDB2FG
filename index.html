@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+      	<link rel="stylesheet" href="css/uploadfile.css">
+      	<link rel="stylesheet" href="css/app.css">
+      	<title>Parse PDF from D&amp;D Beyond</title>
+   	</head>
+   	<body class="container">    
+      	<h3>Instructions</h3>
+      	<ol>
+         	<li>Create D&amp;D5E Character on <a href="http://www.dndbeyond.com" target="_blank">D&amp;D Beyond </a>(Characters from <a href="https://www.patreon.com/taking20/" target="_blank">Taking20 </a>work as well).</li>
+         	<li>Export Character you just created to .PDF and save to your computer</li>
+         	<li>Drag PDF to box above that says 'Drag &amp; Drop Files' or click 'Upload' and nagivate to where you saved the PDF.</li>
+         	<li>XML will be populated in 'XML Text Area'</li>
+         	<li>Copy/paste text into new document, give it an extention of .xml instead of .txt</li>
+         	<li>Import .xml file into PC/Characters ribbon in Fantasy Grounds</li>
+      	</ol>
+      
+      	Use references: (Depends on what sources you have open inside Fantasy Grounds during play)<br />
+      	&nbsp;&nbsp;&nbsp;<input type="radio" name="char_ref" value="no" checked> No&nbsp;&nbsp;
+      	&nbsp;&nbsp;&nbsp;<input type="radio" name="char_ref" value="yes"> Yes&nbsp;&nbsp;
+      
+      	<div id="fileuploader"></div>
+      	<div id="pdfUpload">
+        	<textarea id="textHere" cols="150" rows="10"></textarea><br /><br />
+        	<input type="button" value="Download XML" id="copyoutput">&nbsp;&nbsp;&nbsp;
+        	<input type="button" class="clearme" value="Reset">
+      	</div><br />
+      
+      	<h4>STATUS</h4>
+      	&nbsp;&nbsp;&nbsp;<b>Working (with References)</b>:<br />
+      	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Background, Race, Class/Level<br /><br />
+      	&nbsp;&nbsp;&nbsp;<b>Working (NO References)</b>:<br />
+      	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name, Abilities, Saves, Hitdice, Proficiency, Skills, Hair, Eyes, Skin, Height, Age<br />
+      	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alignment, Passive Perception, HP, Death Saves, Languages, Traits, Coins, Weight<br />
+      	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Personality Traits, Ideals, Bonds, Flaws, Initiative, Speed, Proficiencies, Experience, Size<br /><br />
+      	&nbsp;&nbsp;&nbsp;<b>In Progress/Partially working</b>:<br />
+      	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spells<br /><br />
+      	&nbsp;&nbsp;&nbsp;<b>NOT Working</b>:<br />
+      	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everything else<br /><br />
+      	<div id="myPDF"></div>
+      	<script src="js/jquery-3.3.1.min.js"></script>
+      	<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+      	<script src="js/pdf.js"></script>
+      	<script src="js/jquery.uploadfile.min.js"></script>
+      	<script src="js/app.js"></script>
+   </body>
+</html>
