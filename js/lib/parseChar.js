@@ -1,26 +1,57 @@
 const fieldMap = require('./fieldMap')
 
 const applyMap = (charSheet, pdfItem, mapRule) => {
-  if (mapRule.charCodeAt8226 && pdfItem.fieldValue.charCodeAt(0) === 8226)
-    charSheet[mapRule.to][mapRule.position] = '1'
-  else if (mapRule.bool && pdfItem.fieldValue === 'Yes') {
-    if (!charSheet[mapRule.to])
-      charSheet[mapRule.to] = 0
-    charSheet[mapRule.to] += 1
-  } else if (mapRule.ph && mapRule.position) {
-    if (pdfItem.fieldValue === 'P')
-      charSheet[mapRule.to][mapRule.position] = '1'
-    else if (pdfItem.fieldValue === 'H')
-      charSheet[mapRule.to][mapRule.position] = '3'
-  } else if (mapRule.position)
-    charSheet[mapRule.to][mapRule.position] = pdfItem.fieldValue
+  let to = mapRule.to,
+      fieldValue = mapRule.fieldValue,
+      position
+  
+  if (mapRule.position)
+    position = mapRule.position
+  
+  if (mapRule.charCodeAt8226 && fieldValue.charCodeAt(0) === 8226)
+    charSheet[to][position] = '1'
+  else if (mapRule.bool && fieldValue === 'Yes') {
+    if (!charSheet[to])
+      charSheet[to] = 0
+    charSheet[to] += 1
+  } else if (mapRule.ph && position) {
+    if (fieldValue === 'P')
+      charSheet[to][position] = '1'
+    else if (fieldValue === 'H')
+      charSheet[to][position] = '3'
+  } else if (position)
+    charSheet[to][position] = fieldValue
   else
-    charSheet[mapRule.to] = pdfItem.fieldValue
+    charSheet[to] = fieldValue
 }
 
 const postProcessing = charSheet => {
-  const classArray = charSheet.classString
+  const classArray = charSheet.classString.split('/')
   
+  charSheet.numClasses = parseInt(classArray.length, 10)
+  
+  charSheet.isSingleRace = charSheet.charRace.split(' ')
+  if (charSheet.isSingleRace.length === 1)
+    charSheet.popCharRace = charSheet.isSingleRace[0]
+  else if (charSheet.charRace === 'Variant Human')
+    charSheet.popCharRace = 'human variant'
+  else
+    charSheet.popCharRace = charSheet.isSingleRace[1]
+  
+  // So why pickles? I've named a variable Fred before, but never pickles
+  let pickles = charSheet.unformattedProficiencies.fieldValue.split('\n')
+  
+  for (let b = 0; b < pickles.length; b++) {
+    if (pickles[b] === '=== LANGUAGES === ')
+      charSheet.charLanguages = pickles[b + 1].split(', ')
+    
+    if (pickles[b] === '=== ARMOR === ')
+      charSheet.charProficiencies.push('Armor: ' + pickles[b + 1])
+    else if (pickles[b] === '=== WEAPONS === ')
+      charSheet.charProficiencies.push('Weapons: ' + pickles[b + 1])
+    else if (pickles[b] === '=== TOOLS === ')
+      charSheet.charProficiencies.push('Tools: ' + pickles[b + 1])
+  }
 }
 
 const parseChar = (charSheet, pdfArray) => {
@@ -36,39 +67,7 @@ const parseChar = (charSheet, pdfArray) => {
 
 const parseCharOld = charArray => {
   for (var i = 0; i < charArray.length; i++) {
-      // classString = charArray[i].fieldValue
-      // classArray = classString.split('/')
-      // numClasses = parseInt(classArray.length)
-    
-      // isSingleRace = charRace.split(' ')
-      // if (isSingleRace.length == 1) {
-      //   popCharRace = isSingleRace[0]
-      // } else {
-      //   if (charRace == 'Variant Human') {
-      //     popCharRace = 'human variant'
-      //   } else {
-      //     popCharRace = isSingleRace[1]
-      //   }
-      // }
-    
-      // var pickles
-      // pickles = charArray[i].fieldValue.split('\n')
-      // for (b = 0; b < pickles.length; b++) {
-      //   if (pickles[b] == '=== LANGUAGES === ') {
-      //     //console.log("Languages: " + pickles[b+1]);
-      //     charLanguages = pickles[b + 1].split(', ')
-      //   }
-      //   if (pickles[b] == '=== ARMOR === ') {
-      //     //console.log("Languages: " + pickles[b+1]);
-      //     charProficiencies.push('Armor: ' + pickles[b + 1])
-      //   } else if (pickles[b] == '=== WEAPONS === ') {
-      //     //console.log("Languages: " + pickles[b+1]);
-      //     charProficiencies.push('Weapons: ' + pickles[b + 1])
-      //   } else if (pickles[b] == '=== TOOLS === ') {
-      //     //console.log("Languages: " + pickles[b+1]);
-      //     charProficiencies.push('Tools: ' + pickles[b + 1])
-      //   }
-      // }
+  
   }
   //$("#textHere").val(JSON.stringify(charArray));
   //buildOutput();
