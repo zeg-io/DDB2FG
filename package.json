@@ -1,0 +1,19 @@
+{
+  "name": "ddb2fg",
+  "version": "1.0.0",
+  "description": "Convert DnD Beyond to Fantasy Grounds XML",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeg-io/DDB2FG.git"
+  },
+  "author": "Tony Archer <info@zeg.io> (http://zeg.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeg-io/DDB2FG/issues"
+  },
+  "homepage": "https://github.com/zeg-io/DDB2FG#readme"
+}
